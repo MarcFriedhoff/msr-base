@@ -13,6 +13,8 @@ spec:
   strategy:
     dockerStrategy:
       dockerfilePath: Dockerfile
+      pull-secret: 
+        name: regcred
     type: Docker
   output:
     to:
